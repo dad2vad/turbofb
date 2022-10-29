@@ -16,14 +16,14 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "concurrently": "^7.1.0",
-    "firebase-tools": "^11.9.0",
-    "prettier": "latest",
+    "concurrently": "latest",
+    "firebase-tools": "latest",
+    "rimraf": "latest",
     "turbo": "latest"
   },
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "npm@7.24.0"
+  "packageManager": "npm@latest"
 }
