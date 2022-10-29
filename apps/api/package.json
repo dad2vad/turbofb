@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "scripts": {
+    "dev": "rollup -w -c rollup.config.js",
+    "build": "rimraf ./dist/**/* && rollup -c rollup.config.js",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+   
+  },
+  "private": true
+}
