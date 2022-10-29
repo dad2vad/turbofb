@@ -42,7 +42,7 @@ jobs:
           # source the env with the path to the file
           echo "Sourcing env GOOGLE_APPLICATION_CREDENTIALS=$HOME/firebase.json"
           echo "GOOGLE_APPLICATION_CREDENTIALS=$HOME/firebase.json" >> $GITHUB_ENV
-      - name: Install
+      
         
       - name: Build projects
         run: npm run build
